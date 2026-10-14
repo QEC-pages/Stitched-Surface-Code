@@ -33,18 +33,18 @@ codes of distance 2*t* − 1: compilation to CZ gates with StimFlow, SI1000 nois
 sinter.
 
 ```
-pip install stim sinter pymatching
-pip install --pre stimflow
+pip install stim==1.16.0 sinter==1.16.0 pymatching==2.3.1 stimflow==1.17.dev0
 python memory_experiment.py --t 3 --rv 2 --p 2e-3
 ```
+
+The pinned versions are those used for the paper (Python 3.12).
 
 The reported quantity is the logical error rate per surface-code cycle, *μ*<sub>tot</sub>, of the four-state Markov
 chain of the two logical qubits (Appendix B of the paper), obtained from the failure probabilities of L0, of L1 and of
 either logical qubit after *τ* cycles with an ideal initial state. For two independent surface codes with failure
 probability *P*<sub>1</sub> each, *μ*<sub>tot</sub> = −ln(1 − 2*P*<sub>1</sub>)/*τ*. The stitched circuits have
 *τ* = 3*r*<sub>v</sub> + 4 cycles and the surface-code circuits *τ* = 3*d*; the latter are Stim's `rotated_memory_z`
-circuits without the initial reset layer, so that both codes start from a noiseless |0⟩. The paper used Python 3.12,
-Stim 1.16, StimFlow 1.17.dev0, sinter 1.16 and PyMatching 2.3.1.
+circuits without the initial reset layer, so that both codes start from a noiseless |0⟩.
 
 ## Simulation data
 
