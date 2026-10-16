@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use these circuits or data, please cite the paper below."
+title: "Stitched surface codes: circuits and data"
+repository-code: "https://github.com/QEC-pages/Stitched-Surface-Code"
+authors:
+  - family-names: Shalby
+    given-names: Mohamed A.
+  - family-names: Bourassa
+    given-names: Alexandre
+  - family-names: Karamlou
+    given-names: Amir
+  - family-names: Martin
+    given-names: Leigh
+  - family-names: Morvan
+    given-names: Alexis
+  - family-names: Noll
+    given-names: Nicholas
+  - family-names: Gidney
+    given-names: Craig
+  - family-names: Pryadko
+    given-names: Leonid P.
+preferred-citation:
+  type: article
+  title: "Stitched surface codes: planar concatenation through GHZ corridors"
+  year: 2026
+  url: "https://arxiv.org/abs/2610.21357"
+  identifiers:
+    - type: other
+      value: "arXiv:2610.21357"
+  authors:
+    - family-names: Shalby
+      given-names: Mohamed A.
+    - family-names: Bourassa
+      given-names: Alexandre
+    - family-names: Karamlou
+      given-names: Amir
+    - family-names: Martin
+      given-names: Leigh
+    - family-names: Morvan
+      given-names: Alexis
+    - family-names: Noll
+      given-names: Nicholas
+    - family-names: Gidney
+      given-names: Craig
+    - family-names: Pryadko
+      given-names: Leonid P.

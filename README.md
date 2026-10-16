@@ -1,7 +1,8 @@
 # Stitched surface codes
 
 Circuits and data for M. A. Shalby, A. Bourassa, A. Karamlou, L. Martin, A. Morvan, N. Noll, C. Gidney, and
-L. P. Pryadko, *Stitched surface codes: planar concatenation through GHZ corridors* (2026).
+L. P. Pryadko, *Stitched surface codes: planar concatenation through GHZ corridors*,
+[arXiv:2610.21357](https://arxiv.org/abs/2610.21357) (2026).
 
 The stitched code concatenates four rotated surface-code patches of distance *t* with the [[4,2,2]] code. It encodes
 two logical qubits at distance *d* = 2*t* in *N* = 2*d*² + 4*d* − 3 qubits on a square lattice with nearest-neighbor
