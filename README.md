@@ -90,3 +90,9 @@ named `d<t>rv<r_v>_ro<r_o>_<basis>`. For every circuit the archive contains
 
 A shot has a logical error on L0 (L1) when column 0 (1) of `corrected_obs` is true; `experiment/logical_outcomes.csv`
 tabulates these arrays.
+
+## Licensing
+
+* **Code & Scripts**: Licensed under the [Apache License, Version 2.0](LICENSE.md).
+* **Experimental Data**: Licensed under [Creative Commons Attribution 4.0 International (CC-BY-4.0)](https://creativecommons.org/licenses/by/4.0/).
+
