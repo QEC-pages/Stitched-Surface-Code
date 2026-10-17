@@ -77,6 +77,10 @@ circuit.
 matching and correlated matching), the number of shots with no logical error, with an error on L0 only, on L1 only, and
 on both. `cycles` is the number of surface-code cycles, *τ* = 1 + (*r*<sub>v</sub> + 1)(2*r*<sub>o</sub> + 1).
 
+The 32 executed circuits are in `experiment/stim/t<t>/<basis>/` (Stim format, one file per circuit, named
+`circuit_d<t>rv<r_v>_ro<r_o>_<basis>.stim` as in the archive below). Converting the archive's measurement outcomes
+and sweep bits with these circuits (`stim m2d`) reproduces its detection events and logical observables.
+
 ![Logical error probabilities per cycle versus the number of cycles](figures/hardware_logical_error_vs_cycles.png)
 
 The complete data set, `hardware_data.zip` (1.3 GB), is attached to the [v1 release](../../releases). Circuits are
