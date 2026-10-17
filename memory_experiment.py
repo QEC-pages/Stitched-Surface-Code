@@ -1,4 +1,4 @@
-# Copyright 2026 Google LLC (or relevant authors)
+# Copyright 2026 The Stitched Surface Codes Authors
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -39,7 +39,7 @@ def with_noise(circuit: stim.Circuit, p: float) -> stim.Circuit:
 
 def stitched_task(t: int, rv: int, p: float) -> sinter.Task:
     circuit = with_noise(cz_compiled(build_circuit(t, rv, 1, memory="ZZ")), p)
-    return sinter.Task(circuit=circuit, json_metadata=dict(code="stitched", d=2 * t, rv=rv, p=p, rounds=3 * rv + 4))
+    return sinter.Task(circuit=circuit, json_metadata=dict(code="stitched", d=2 * t, rv=rv, p=p, cycles=3 * rv + 4))
 
 
 def surface_task(d: int, p: float) -> sinter.Task:
@@ -55,7 +55,7 @@ def surface_task(d: int, p: float) -> sinter.Task:
                 circuit.append(op)
             continue
         circuit.append(op)
-    return sinter.Task(circuit=with_noise(circuit, p), json_metadata=dict(code="two surface codes", d=d, p=p, rounds=3 * d))
+    return sinter.Task(circuit=with_noise(circuit, p), json_metadata=dict(code="two surface codes", d=d, p=p, cycles=3 * d))
 
 
 def mu_tot_stitched(p_f0: float, p_f1: float, p_any: float, tau: float) -> float:
@@ -74,7 +74,7 @@ def mu_tot_two_surface(p_f: float, tau: float) -> float:
 
 
 def per_cycle(stat: sinter.TaskStats) -> float:
-    n, tau = stat.shots, stat.json_metadata["rounds"]
+    n, tau = stat.shots, stat.json_metadata["cycles"]
     if stat.json_metadata["code"] != "stitched":
         return mu_tot_two_surface(stat.errors / n, tau)
     c = stat.custom_counts

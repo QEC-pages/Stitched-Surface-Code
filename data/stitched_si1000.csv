@@ -1,4 +1,4 @@
-t,d,r_v,p,rounds,shots,errors,errors_L0,errors_L1,selected,mu_tot_per_cycle
+t,d,r_v,p,cycles,shots,errors,errors_L0,errors_L1,selected,mu_tot_per_cycle
 2,4,1,0.0001,7,3265058,1000,651,646,1,4.376227e-05
 2,4,2,0.0001,10,1102370,601,420,374,0,5.453877e-05
 3,6,1,0.0001,7,7289105,150,27,137,0,2.939859e-06

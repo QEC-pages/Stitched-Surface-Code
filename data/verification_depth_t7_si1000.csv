@@ -1,4 +1,4 @@
-t,noise,mode,rv,p,rounds_R,shots,errors_joint,errors_L0,errors_L1,mu_tot_per_cycle,ci95_lo,ci95_hi,mu_01,mu_10,mu_11
+t,noise,mode,r_v,p,cycles,shots,errors,errors_L0,errors_L1,mu_tot_per_cycle,ci95_lo,ci95_hi,mu_01,mu_10,mu_11
 7,si1000,corridor_only,2,0.001,10,20355618,300,0,300,1.473816e-06,1.316207e-06,1.650299e-06,0.000000e+00,1.473816e-06,0.000000e+00
 7,si1000,corridor_only,2,0.0015,10,5869841,300,0,300,5.111132e-06,4.564540e-06,5.723178e-06,0.000000e+00,5.111132e-06,0.000000e+00
 7,si1000,corridor_only,2,0.002,10,2116130,300,0,300,1.417883e-05,1.266246e-05,1.587679e-05,0.000000e+00,1.417883e-05,0.000000e+00

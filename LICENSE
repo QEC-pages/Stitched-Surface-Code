@@ -5,9 +5,9 @@ This repository contains both software and data artifacts.
    in this repository are licensed under the Apache License, Version 2.0.
    A copy of the Apache 2.0 License is provided below.
 
-2. Experimental Data and Documentation:
-   All experimental datasets, benchmarks, figures, and accompanying documentation
-   are licensed under the Creative Commons Attribution 4.0 International License (CC-BY-4.0).
+2. Data and Documentation:
+   All data files (simulation results, hardware data, circuit files), figures and
+   documentation are licensed under the Creative Commons Attribution 4.0 International License (CC-BY-4.0).
    To view a copy of this license, visit:
    https://creativecommons.org/licenses/by/4.0/
 
@@ -199,7 +199,7 @@ This repository contains both software and data artifacts.
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright 2026 Mohamed A. Shalby
+   Copyright 2026 The Stitched Surface Codes Authors
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.

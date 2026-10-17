@@ -1,4 +1,4 @@
-d,p,rounds,shots,errors,mu_tot_per_cycle_two_codes
+d,p,cycles,shots,errors,mu_tot_per_cycle_two_codes
 3,0.0001,9,8612113,1000,2.580645e-05
 5,0.0001,15,262419729,1000,5.080938e-07
 7,0.0001,21,4000000000,339,8.071429e-09
